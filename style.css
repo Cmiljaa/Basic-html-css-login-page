@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.login-page{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: rgb(1,29,250);
+    background: linear-gradient(45deg, rgba(1,29,250,1) 0%, rgba(255,0,41,1) 100%);
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.login-page form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.login-page form h1{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.login-page form input{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.login-page form label{
+    padding-left: 10px;
+}
+
+.login-page form a{
+    text-decoration: none;
+    padding-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.login-page form button{
+    margin-top: 15px;
+}
